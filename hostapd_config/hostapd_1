@@ -1,0 +1,27 @@
+### /opt/hostapd
+
+#!/bin/sh
+sleep 10
+sudo hostapd /etc/hostapd/hostapd.conf > /home/userssh/hostapd.log
+
+### /etc/init.d/hostapd2
+
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:		hostapd2
+# Required-Start:	$remote_fs $syslog
+# Required-Stop:	$remote_fs $syslog
+# Should-Start:		$network
+# Should-Stop:
+# Default-Start:	2 3 4 5
+# Default-Stop:		0 1 6
+# Short-Description:	Advanced IEEE 802.11 management daemon
+# Description:		Userspace IEEE 802.11 AP and IEEE 802.1X/WPA/WPA2/EAP
+#			Authenticator
+### END INIT INFO
+
+cd /opt/hostapd
+./hostapd
+
+### MAC_Address_Accept
+cc:50:e5:fd:eh:22 --MAC
