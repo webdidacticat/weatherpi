@@ -8,8 +8,8 @@
 #include "ClosedCube_HDC1080.h"
 
 #ifndef STASSID
-#define STASSID "WeatherPi"
-#define STAPSK  "25ZbkQpO9Lv*O8u&Vl"
+#define STASSID "SSID"
+#define STAPSK  "passw0rd"
 #endif
 
 #define I2C_ADDRESS 0x76
@@ -25,7 +25,7 @@ BMx280I2C bmx280(I2C_ADDRESS);
 const char* ssid     = STASSID;
 const char* password = STAPSK;
 
-const char* host = "192.168.5.1";
+const char* host = "192.168.5.xxx";
 const uint16_t port = 80;
 
 int pinSonda = A0;
@@ -77,8 +77,8 @@ void init_WIFI()
   WiFi.mode(WIFI_STA);
   WiFi.begin(ssid, password);
   // Start Fixed IP
-  IPAddress ip(192,168,5,2);   
-  IPAddress gateway(192,168,5,1);   
+  IPAddress ip(192,168,xx,xx);   
+  IPAddress gateway(192,168,xx,xx);   
   IPAddress subnet(255,255,255,0);   
   WiFi.config(ip, gateway, subnet);
   Serial.println("Start Connection");
