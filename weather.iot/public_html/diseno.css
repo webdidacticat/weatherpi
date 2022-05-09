@@ -1,0 +1,86 @@
+body{
+    background-color: silver;
+}
+.container{
+    width: 1100px;
+    background-color: lightgray;
+    margin: auto;
+    border-radius: 15px;
+}
+.header img{
+    float: left;
+    border-radius: 15px 0px 0px 0px;
+}
+.header h1{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    text-transform: capitalize;
+    vertical-align: middle;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+.top {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: right;
+}
+.menu{
+    float: right;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+.menu a:hover{
+    background: cyan;
+    border-radius: 5px 5px 0px 0px;
+}
+.col{
+    width: 1000px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    text-align: justify;
+}
+.col h2{
+    color:darkcyan;
+}
+.col a{
+    text-decoration: none;
+}
+.row{
+    text-align: center;
+}
+.footer{
+    overflow: hidden;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+.footer span{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+table{
+    empty-cells: hide;
+    width: 1000px;
+}
+table, th, td{
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    height: 25px;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background.color: #0F0F0F;
+}
