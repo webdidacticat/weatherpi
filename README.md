@@ -12,6 +12,13 @@ Un saludo
 
 # weatherpi_cat
 Podem trobar el circuit electronic que s'ha utilitzat per realitzar una estació meteorologica solar.
+
+![image_text](https://github.com/webdidacticat/weatherpi/blob/main/Esquema/Esquema_Circuito.png)
+
 Les dades son enviades per Wifi a una Raspberry Pi que a la seva vegada dessa en una base de dades i els mostra en una web.
 Els diferents documents que es troben son les diferents parts i configuracions de la Raspberry Pi, ja que aquesta te el servei AP que dona accés a la estació propiament.
+
+![image_text](https://github.com/webdidacticat/weatherpi/blob/main/img/photo_2022-05-09_13-50-41.jpg)
+
+
 Ens veiem
