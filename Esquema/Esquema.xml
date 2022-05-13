@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/master/KiCad_Project/WeatherPi/Esquema/Esquema.kicad_sch</source>
+    <date>vie 13 may 2022 10:10:10</date>
+    <tool>Eeschema 6.0.5-a6ca702e91~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Esquema.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Pila 18650</value>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Esquema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>644a1a39-fab2-48f6-a2bb-eeef1cab79e0</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4004</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Esquema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36a1d210-a914-495e-a71a-25d7a3e114d1</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>JST-XH 2.54mm</value>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Esquema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c87a6af-92de-4351-8121-2a5090a38692</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>JST-XH 2.54mm</value>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Esquema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fcbfbae-5506-433b-ad69-e23a6ff9051a</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>JST-XH 2.54mm</value>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Esquema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d59d2bf8-8f62-4fda-82e2-60b92808c4ad</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>JST-XH 2.54mm</value>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Esquema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1b9a5e4-4f84-4a16-9389-0bd918a65d16</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>JST-XH 2.54mm</value>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Esquema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc73900d-5371-4728-8cde-0fd1fbf9fac5</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>JST-XH 2.54mm</value>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Esquema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b53049b2-a9a3-4843-903f-475233ab7d44</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Esquema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58694fac-b73a-41d5-8b99-9a4c07c71aec</tstamps>
+    </comp>
+    <comp ref="SC1">
+      <value>Solar_Cell_6V</value>
+      <libsource lib="Device" part="Solar_Cell" description="Single solar cell"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Esquema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db0066a8-67de-4d90-8d48-1fa5a2fd2726</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TP4056_Placa</value>
+      <libsource lib="Esquema" part="TP4056" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Esquema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67610ca0-4681-4168-b0d5-bf9179359cc2</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>WeMos_D1_mini</value>
+      <footprint>Module:WEMOS_D1_mini_light</footprint>
+      <datasheet>https://wiki.wemos.cc/products:d1:d1_mini#documentation</datasheet>
+      <libsource lib="MCU_Module" part="WeMos_D1_mini" description="32-bit microcontroller module with WiFi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Esquema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>544b2874-71d7-4e19-b9eb-a2803bafb4ae</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MT3608_Placa</value>
+      <libsource lib="Esquema" part="MT3608_Placa" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Esquema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>259f56a1-5b74-41ed-85ea-466a703de69b</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>BMP280</value>
+      <footprint>Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering</footprint>
+      <datasheet>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf</datasheet>
+      <libsource lib="Sensor_Pressure" part="BMP280" description="Absolute Barometric Pressure Sensor, LGA-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Esquema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e97eae4a-daca-42a9-9059-edfa44010e7d</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>HDC1080</value>
+      <footprint>Package_SON:Texas_PWSON-N6</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/hdc1080.pdf</datasheet>
+      <libsource lib="Sensor_Humidity" part="HDC1080" description="Low Power,High Accuracy Digital Humidity Sensor with Temperature Sensor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Esquema.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c8ce888-2d7c-4689-84c6-6287405414f7</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Solar_Cell">
+      <description>Single solar cell</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SC</field>
+        <field name="Value">Solar_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4004">
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4004</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Esquema" part="MT3608_Placa">
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">MT3608_Placa</field>
+      </fields>
+      <pins>
+        <pin num="" name="Vin+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Esquema" part="TP4056">
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">TP4056</field>
+      </fields>
+      <pins>
+        <pin num="" name="B+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="WeMos_D1_mini">
+      <description>32-bit microcontroller module with WiFi</description>
+      <docs>https://wiki.wemos.cc/products:d1:d1_mini#documentation</docs>
+      <footprints>
+        <fp>WEMOS*D1*mini*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WeMos_D1_mini</field>
+        <field name="Footprint">Module:WEMOS_D1_mini_light</field>
+        <field name="Datasheet">https://wiki.wemos.cc/products:d1:d1_mini#documentation</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RST}" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="D0" type="bidirectional"/>
+        <pin num="4" name="SCK/D5" type="bidirectional"/>
+        <pin num="5" name="MISO/D6" type="bidirectional"/>
+        <pin num="6" name="MOSI/D7" type="bidirectional"/>
+        <pin num="7" name="CS/D8" type="bidirectional"/>
+        <pin num="8" name="3V3" type="power_out"/>
+        <pin num="9" name="5V" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="D4" type="bidirectional"/>
+        <pin num="12" name="D3" type="bidirectional"/>
+        <pin num="13" name="SDA/D2" type="bidirectional"/>
+        <pin num="14" name="SCL/D1" type="bidirectional"/>
+        <pin num="15" name="RX" type="input"/>
+        <pin num="16" name="TX" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Humidity" part="HDC1080">
+      <description>Low Power,High Accuracy Digital Humidity Sensor with Temperature Sensor</description>
+      <docs>http://www.ti.com/lit/ds/symlink/hdc1080.pdf</docs>
+      <footprints>
+        <fp>Package*SON:Texas*PWSON*N6*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HDC1080</field>
+        <field name="Footprint">Package_SON:Texas_PWSON-N6</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/hdc1080.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="bidirectional"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="DAP" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Pressure" part="BMP280">
+      <description>Absolute Barometric Pressure Sensor, LGA-8</description>
+      <docs>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf</docs>
+      <footprints>
+        <fp>Bosch*LGA*2x2.5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BMP280</field>
+        <field name="Footprint">Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering</field>
+        <field name="Datasheet">https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="CSB" type="input"/>
+        <pin num="3" name="SDI" type="bidirectional"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="SDO" type="bidirectional"/>
+        <pin num="6" name="VDDIO" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Esquema">
+      <uri>/home/master/KiCad_Project/WeatherPi/Esquema/Esquema.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>/usr/share/kicad/symbols//MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Humidity">
+      <uri>/usr/share/kicad/symbols//Sensor_Humidity.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Pressure">
+      <uri>/usr/share/kicad/symbols//Sensor_Pressure.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="" pinfunction="Vout-" pintype="input"/>
+      <node ref="U4" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(BT1-Pad2)">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="U1" pin="" pinfunction="B-" pintype="input"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="SC1" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="" pinfunction="V+" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(SC1-Pad2)">
+      <node ref="SC1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="U1" pin="" pinfunction="V-" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad)">
+      <node ref="U1" pin="" pinfunction="Vout-" pintype="input"/>
+      <node ref="U3" pin="" pinfunction="Vin-" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad)_1">
+      <node ref="U1" pin="" pinfunction="Vout+" pintype="input"/>
+      <node ref="U3" pin="" pinfunction="Vin+" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1" pinfunction="~{RST}" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="D0" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="SCL">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="SCL/D1" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="SCK" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="11" name="SDA">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="SDA/D2" pintype="bidirectional"/>
+      <node ref="U4" pin="3" pinfunction="SDI" pintype="bidirectional"/>
+      <node ref="U5" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="VCC">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="5V" pintype="power_in"/>
+      <node ref="U3" pin="" pinfunction="Vout+" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="13" name="Vbat">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="" pinfunction="B+" pintype="input"/>
+    </net>
+    <net code="14" name="unconnected-(U2-Pad4)">
+      <node ref="U2" pin="4" pinfunction="SCK/D5" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="MISO/D6" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="unconnected-(U2-Pad6)">
+      <node ref="U2" pin="6" pinfunction="MOSI/D7" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="unconnected-(U2-Pad7)">
+      <node ref="U2" pin="7" pinfunction="CS/D8" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="unconnected-(U2-Pad8)">
+      <node ref="U2" pin="8" pinfunction="3V3" pintype="power_out"/>
+    </net>
+    <net code="19" name="unconnected-(U2-Pad11)">
+      <node ref="U2" pin="11" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="unconnected-(U2-Pad12)">
+      <node ref="U2" pin="12" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="unconnected-(U2-Pad15)">
+      <node ref="U2" pin="15" pinfunction="RX" pintype="input"/>
+    </net>
+    <net code="22" name="unconnected-(U2-Pad16)">
+      <node ref="U2" pin="16" pinfunction="TX" pintype="output"/>
+    </net>
+    <net code="23" name="unconnected-(U4-Pad1)">
+      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="24" name="unconnected-(U4-Pad2)">
+      <node ref="U4" pin="2" pinfunction="CSB" pintype="input"/>
+    </net>
+    <net code="25" name="unconnected-(U4-Pad5)">
+      <node ref="U4" pin="5" pinfunction="SDO" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="unconnected-(U4-Pad6)">
+      <node ref="U4" pin="6" pinfunction="VDDIO" pintype="power_in"/>
+    </net>
+    <net code="27" name="unconnected-(U5-Pad3)">
+      <node ref="U5" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U5-Pad4)">
+      <node ref="U5" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U5-Pad7)">
+      <node ref="U5" pin="7" pinfunction="DAP" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
