@@ -20,6 +20,15 @@ if($_GET)
 	insert($conbd,$dia,$hora,$tempbmp,$presbmp,$temphdc,$humehdc,$batery,$iden);
 	close($conbd);
 }else{
-	echo "Params error \n";
+        //echo "Params error \n";
+?>
+<html>
+<head><title>404 - Page Not Found</title></head>
+<body>
+<center><h1>404</h1>
+<h3>Page Not Found</h3>
+</body>
+</html>
+<?php
 }
 ?>
